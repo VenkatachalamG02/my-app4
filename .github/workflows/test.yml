@@ -1,2 +1,7 @@
-v dskds
-vsdjnvkdsnvjkds
+name : My First GitHub File
+on: [push]
+jobs: 
+    print-hi:
+        runs-on: windows-latest
+        steps:
+            - run: echo "Hello!!!" 
